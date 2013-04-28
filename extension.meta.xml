@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="je_login_manager" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>JE Login Manager</name>
+	<description>Website sign-in with Janrain Engage social login widget</description>
+	<repo type="github">https://github.com/symphonycms/je_login_manager</repo>
+	<!--<url type="discuss">http://getsymphony.com/discuss/thread/0/</url>-->
+	<types>
+		<type>Third Party Integration</type>
+		<type>3rd Party Integration</type>
+		<type>Login</type>
+	</types>
+	<authors>
+		<author>
+			<name github="Petertron" symphony="Petertron">Peter Skirenko</name>
+			<website>http://www.peter-s.me</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1" date="2013-04-28" min="2.3">
+			- Initial release
+		</release>
+	</releases>
+</extension> 
