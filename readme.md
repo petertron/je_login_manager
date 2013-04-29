@@ -18,4 +18,4 @@ The data source **JE Login User Info** can be customized by going to `Blueprints
 ### Fourthly ###
 Attach the **JE Auth** event to the page or pages that will take POST data during the login process. Add the **JE Login User Info** data source to pages that need it.
 
-To embed the widget on a page, the HTML to use is `<div id="janrainEngageEmbed"></div>`. The neccessary JavaScript will be inserted into the document head automatically.
+To embed the widget on a page, the HTML to use is `<div id="janrainEngageEmbed"></div>`. The necessary JavaScript will be inserted into the document head automatically.

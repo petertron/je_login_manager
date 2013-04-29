@@ -116,7 +116,7 @@
 			$label = Widget::Label(__('Subdomain Of <strong>rpxnow.com</strong>'));
 			$label->setAttribute('class', 'column');
 			$label->appendChild(
-					Widget::Input('settings[' . $this->id . '][subdomain_name]', Symphony::Configuration()->get('subdomain_name', $this->handle)
+					Widget::Input('settings[' . $this->id . '][subdomain_name]', Symphony::Configuration()->get('subdomain_name', $this->id)
 				)
 			);
 			$div->appendChild($label);
@@ -124,7 +124,7 @@
 			$label = Widget::Label(__('40-Digit API Key'));
 			$label->setAttribute('class', 'column');
 			$label->appendChild(
-				Widget::Input('settings[' . $this->id . '][api_key]', Symphony::Configuration()->get('api_key', $this->handle)
+				Widget::Input('settings[' . $this->id . '][api_key]', Symphony::Configuration()->get('api_key', $this->id)
 				)
 			);
 			$div->appendChild($label);
